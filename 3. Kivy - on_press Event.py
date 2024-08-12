@@ -1,4 +1,4 @@
-# on_press Event in Kivy
+# Kivy - on_press Event
 # on_press Event is a method that is called when a button is pressed.
 
 from kivy.app import App

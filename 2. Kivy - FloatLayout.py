@@ -1,4 +1,4 @@
-# FloatLayout in Kivy
+# Kivy - FloatLayout
 # FloatLayout is a layout that allows widgets to be placed anywhere on the screen.
 
 from kivy.app import App

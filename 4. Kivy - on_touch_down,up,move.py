@@ -1,3 +1,6 @@
+# Kivy - on_touch_down, on_touch_up, on_touch_move
+# on_touch_down, on_touch_up, on_touch_move are methods that are called when a button is pressed.
+
 from kivy.app import App
 from kivy.uix.label import Label
 

@@ -1,4 +1,4 @@
-# Label, BoxLayout, Button in Kivy
+# Kivy - Label, BoxLayout, Button
 
 from kivy.app import App
 from kivy.uix.label import Label
