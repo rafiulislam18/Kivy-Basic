@@ -1,3 +1,5 @@
+# Label, BoxLayout, Button in Kivy
+
 from kivy.app import App
 from kivy.uix.label import Label
 from kivy.uix.boxlayout import BoxLayout
