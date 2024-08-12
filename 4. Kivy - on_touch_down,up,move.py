@@ -11,8 +11,10 @@ class MyLabel(Label):
 
     def on_touch_down(self, touch):
         print('DOWN', touch)
+
     def on_touch_up(self, touch):
         print('UP', touch)
+        
     def on_touch_move(self, touch):
         print('MOVE', touch)
 

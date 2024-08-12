@@ -1,3 +1,6 @@
+# Kivy - Canvas
+# Canvas is a widget that allows you to draw on the screen.
+
 from kivy.app import App
 from kivy.graphics import Rectangle
 from kivy.uix.widget import Widget
