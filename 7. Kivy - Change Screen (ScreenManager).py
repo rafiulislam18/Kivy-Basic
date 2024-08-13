@@ -11,6 +11,7 @@ class FirstPage(Button):
         self.text = 'hi'
         self.bind(on_press=self.switch)
 
+    # Switch to second page
     def switch(self, item):
         myapp.screen_manager.transition = SlideTransition(direction='left')
         myapp.screen_manager.current = 'Second'
@@ -22,6 +23,7 @@ class SecondPage(Button):
         self.text = 'hi there'
         self.bind(on_press=self.switch)
 
+    # Switch to first page
     def switch(self, item):
         myapp.screen_manager.transition = SlideTransition(direction='right')
         myapp.screen_manager.current = 'First'
