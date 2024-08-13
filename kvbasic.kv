@@ -1,0 +1,19 @@
+<MyBox>:
+    myInput: inputID
+
+    BoxLayout:
+        size: root.width, root.height
+        orientation: "vertical"
+
+        Label:
+            text: "Hi"
+
+        Label:
+            text: "another label"
+
+        TextInput:
+            id: inputID
+
+        Button:
+            text: "Press me"
+            on_press: root.printOut()
